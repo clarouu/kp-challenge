@@ -230,26 +230,32 @@ export default defineComponent({
             order_id: 'KP-12343',
             order_status: { 'label': 'Livré', 'color': 'green', 'text_color': 'white' },
             order_products: [{
+                product_state: true,
                 product_name: 'KP.VBE.A003.00',
                 product_serial: 'KP.VBE.A003.00.AAAAAA',
                 qty_to_pack: 1
             }, {
+                product_state: true,
                 product_name: 'KP.VBE.A003.01',
                 product_serial: 'KP.VBE.A003.01.AAAAAA',
                 qty_to_pack: 1
             }, {
+                product_state: true,
                 product_name: 'KP.VBE.A003.01',
                 product_serial: 'KP.VBE.A003.01.AAAAAB',
                 qty_to_pack: 1
             }, {
+                product_state: true,
                 product_name: 'KP.VBE.A003.01',
                 product_serial: null,
                 qty_to_pack: 1
             }, {
+                product_state: true,
                 product_name: 'KP.NTC.A003.00',
                 product_serial: null,
                 qty_to_pack: 1
             }, {
+                product_state: true,
                 product_name: 'KP.NTC.A003.01',
                 product_serial: null,
                 qty_to_pack: 1
@@ -259,30 +265,84 @@ export default defineComponent({
             order_id: 'KP-12344',
             order_status: { 'label': 'Expédiée', 'color': 'indigo', 'text_color': 'white' },
             order_products: [{
+                product_state: true,
                 product_name: 'KP.VBE.A003.00',
                 product_serial: 'KP.VBE.A003.00.AAAAAA',
                 qty_to_pack: 1
             }, {
+                product_state: true,
                 product_name: 'KP.VBE.A003.01',
                 product_serial: 'KP.VBE.A003.01.AAAAAA',
                 qty_to_pack: 1
             }, {
+                product_state: true,
                 product_name: 'KP.VBE.A003.01',
                 product_serial: 'KP.VBE.A003.01.AAAAAB',
                 qty_to_pack: 1
             }, {
+                product_state: true,
                 product_name: 'KP.VBE.A003.01',
                 product_serial: null,
                 qty_to_pack: 1
             }, {
+                product_state: true,
                 product_name: 'KP.NTC.A003.00',
                 product_serial: null,
                 qty_to_pack: 1
             }, {
+                product_state: true,
                 product_name: 'KP.NTC.A003.01',
                 product_serial: null,
                 qty_to_pack: 1
             }]
+        },
+        {
+            order_id: 'KP-12345',
+            order_status: { 'label': 'En préparation', 'color': 'blue', 'text_color': 'white' },
+            order_products: [
+                {
+                    product_state: true,
+                    product_name: 'KP.VBE.A003.00',
+                    product_serial: 'KP.VBE.A003.00.AAAAAA',
+                    qty_to_pack: 1
+                },
+                {
+                    product_state: true,
+                    product_name: 'KP.VBE.A003.01',
+                    product_serial: 'KP.VBE.A003.01.AAAAAA',
+                    qty_to_pack: 1
+                },
+                {
+                    product_state: true,
+                    product_name: 'KP.VBE.A003.01',
+                    product_serial: 'KP.VBE.A003.01.AAAAAB',
+                    qty_to_pack: 1
+                }
+            ]
+        },
+        {
+            order_id: 'KP-12345',
+            order_status: { 'label': 'En préparation', 'color': 'blue', 'text_color': 'white' },
+            order_products: [
+                {
+                    product_state: false,
+                    product_name: 'KP.VBE.A003.01',
+                    product_serial: null,
+                    qty_to_pack: 1
+                },
+                {
+                    product_state: false,
+                    product_name: 'KP.NTC.A003.00',
+                    product_serial: null,
+                    qty_to_pack: 1
+                },
+                {
+                    product_state: false,
+                    product_name: 'KP.NTC.A003.01',
+                    product_serial: null,
+                    qty_to_pack: 1
+                }
+            ]
         }];
 
         function displayOrder(orderToDisplay) {

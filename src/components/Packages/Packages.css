@@ -85,3 +85,26 @@
   display: flex;
   flex-wrap: wrap;
 }
+
+.kp_packages-product_state {
+  display: flex;
+  align-items: center;
+}
+
+.kp_packages-product_state img {
+  margin-right: 0.3em;
+}
+
+.kp_packages-filters {
+  display: flex;
+  padding: 0.5em;
+  align-items: center;
+}
+
+.kp_packages-filter {
+  display: flex;
+}
+
+.kp_packages-filter div {
+  margin: 0 0.5em;
+}
