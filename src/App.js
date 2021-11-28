@@ -126,7 +126,7 @@ export default defineComponent({
                 customer: 'JPB-Système',
                 qty_to_pack: 6,
                 qty_packed: 1,
-                qty_package: 1,
+                qty_package: 2,
                 order_products: [
                     {
                         product_state: true,
