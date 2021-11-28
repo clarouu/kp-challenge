@@ -1,0 +1,51 @@
+.kp_orders-title {
+  text-align: left;
+  padding: 0.5em;
+  background-color: #ededed;
+  margin: 0 0 0.5em 0;
+}
+
+.kp_orders-order {
+  border-bottom: #c01d16 solid 0.1em;
+  padding: 0.5em;
+  display: flex;
+  justify-content: space-between;
+}
+
+.kp_orders-order_detail {
+  display: flex;
+}
+
+.kp_orders-order_item {
+  margin-right: 1em;
+}
+
+.kp_orders-order_status {
+  background-color: black;
+  height: 1em;
+  width: 1em;
+}
+
+.kp_orders-order_status-green {
+  background-color: #06bb00;
+}
+
+.kp_orders-order_status-indigo {
+  background-color: indigo;
+}
+
+.kp_orders-order_status-blue {
+  background-color: #0d92eb;
+}
+
+.kp_orders-order_status-amber {
+  background-color: #ebc20d;
+}
+
+.kp_orders-order_view-detail {
+  cursor: pointer;
+}
+
+.kp_orders-order_view-detail:hover {
+    text-decoration: underline;
+  }

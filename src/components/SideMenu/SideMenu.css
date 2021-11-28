@@ -1,0 +1,38 @@
+.kp_side-menu {
+  width: 15em;
+  height: 100vh;
+  color: white;
+  background-color: #5570aa;
+}
+
+.kp-side-menu_items {
+  text-align: left;
+  margin-top: 2em;
+}
+
+.kp-side-menu_item {
+  padding: 0.5em;
+  cursor: pointer;
+}
+
+.kp-side-menu_item:hover {
+  background-color: #374a72;
+}
+
+.kp-side-menu_header {
+  background-color: #374a72;
+  padding: 1em;
+}
+
+.kp-side-menu_logo {
+  height: 10em;
+}
+
+.kp-side-menu_title {
+  font-size: 1.2em;
+  margin-top: 0.5em;
+}
+
+.kp-side-menu_active-item {
+  border-left: #ec7a10 solid 0.3em;
+}

@@ -1,0 +1,71 @@
+.kp_order-title {
+  padding: 0.5em;
+  background-color: #ededed;
+  margin: 0;
+}
+
+.kp_order-section {
+  display: flex;
+  margin-left: 1.5em;
+}
+
+.kp_order-section > div {
+  padding: 0.5em;
+}
+
+.kp_order_status {
+  padding: 0.3em;
+}
+
+.kp_order_status-green {
+  background-color: #06bb00;
+}
+
+.kp_order_status-indigo {
+  background-color: indigo;
+}
+
+.kp_order_status-blue {
+  background-color: #0d92eb;
+}
+
+.kp_order_status-amber {
+  background-color: #ebc20d;
+}
+
+.kp_order_status-text_color-black {
+  color: black;
+}
+
+.kp_order_status-text_color-white {
+  color: white;
+}
+
+.kp_order-section_title {
+  text-align: left;
+  padding: 0.5em;
+  margin: 1em 0 0.5em 0;
+  border-bottom: #ec7a10 solid 0.15em;
+}
+
+.kp_order-product {
+  border: #aaaaaa solid 0.1em;
+  padding: 0.5em;
+  margin: 0.3em;
+  text-align: left;
+  width: 22em;
+}
+
+.kp_order-product_container {
+  padding: 0.5em 0.5em 0.5em 0;
+  flex-wrap: wrap;
+}
+
+.kp_order-product_state {
+    display: flex;
+    align-items: center;
+}
+
+.kp_order-product_state img {
+    margin-right: 0.3em;
+}
